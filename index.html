@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Spinning Wheel Game</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="game-container">
+
+        <h1>🎡 Lucky Spin</h1>
+
+        <p>Spin the wheel and discover your prize!</p>
+
+        <div class="wheel-container">
+
+            <div class="pointer"></div>
+
+            <canvas id="wheel" width="500" height="500"></canvas>
+
+        </div>
+
+        <div class="buttons">
+    <button id="spin-button">🎡 SPIN THE WHEEL</button>
+    <button id="reset-button">🔄 RESET GAME</button>
+</div>
+
+<div class="history-container">
+    <h3>🏆 Winning History</h3>
+    <ul id="history-list">
+        <li>No prizes won yet</li>
+    </ul>
+</div>
+
+        <h2 id="result">Your prize will appear here!</h2>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
